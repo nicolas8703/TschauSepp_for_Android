@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TschauSepp</string>
+    <string name="textEinzelspieler">Einzelspieler</string>
+    <string name="textMehrspieler">Mehrspieler</string>
+    <string name="textBeenden">Beenden</string>
+    <string name="textKarteZiehen">Karte ziehen</string>
+    <string name="textTschau">Tschau sagen</string>
+    <string name="textSepp">Sepp sagen</string>
+    <string name="MultiplayerMenueSpieler1">Spieler 1 :</string>
+    <string name="MultiplayerMenueSpieler2">Spieler 2 :</string>
+    <string name="MultiplayerMenueSpieler3">Spieler 3 :</string>
+    <string name="MultiplayerMenueSpieler4">Spieler 4 :</string>
+    <string name="MultiplayerMenuePunkte">Zu erreichende Punkte :</string>
+    <string name="MultiplayerMenueStart">Start</string>
+</resources>

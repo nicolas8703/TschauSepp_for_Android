@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MultiplayerMenueActivity">
+
+    <TextView
+        android:id="@+id/multiplayerMenueTitel1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/MultiplayerMenueSpieler1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="@string/MultiplayerMenueSpieler1" />
+
+    <EditText
+        android:id="@+id/multiplayerMenueEingabe1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/multiplayerMenueTitel2"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/MultiplayerMenueSpieler2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="@string/MultiplayerMenueSpieler2" />
+
+    <EditText
+        android:id="@+id/multiplayerMenueEingabe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/multiplayerMenueTitel3"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/MultiplayerMenueSpieler3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="@string/MultiplayerMenueSpieler3" />
+
+    <EditText
+        android:id="@+id/multiplayerMenueEingabe3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/multiplayerMenueTitel4"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/MultiplayerMenueSpieler4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="@string/MultiplayerMenueSpieler4" />
+
+    <EditText
+        android:id="@+id/multiplayerMenueEingabe4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/multiplayerMenueTitel5"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/MultiplayerMenuePunkte"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="@string/MultiplayerMenuePunkte" />
+
+    <EditText
+        android:id="@+id/multiplayerMenueEingabe5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/layoutbuttons"
+        android:text="@string/MultiplayerMenueStart"
+        tools:text="@string/MultiplayerMenueStart" />
+
+</LinearLayout>

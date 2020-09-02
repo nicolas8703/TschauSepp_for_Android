@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/e"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MultiplayerActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/buttonKartenRuecken"
+            android:layout_width="94dp"
+            android:layout_height="160dp"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.725"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/buttonLetzteKarte"
+            android:layout_width="94dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvSpielerName"
+            android:layout_width="95dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="121dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSpielerPunkte"
+            android:layout_width="95dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="143dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte5"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte6"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte7"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte8"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte9"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte1"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte2"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte3"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKarte4"
+                android:layout_width="94dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonKarteZiehen"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/textKarteZiehen"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonTschau"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/textTschau"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonSepp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/textSepp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
