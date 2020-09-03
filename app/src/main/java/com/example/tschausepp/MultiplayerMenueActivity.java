@@ -1,7 +1,6 @@
 package com.example.tschausepp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +8,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+/**
+ * Nicolas Feige
+ *
+ * @author Nicolas Feige
+ * @version 1.0
+ * @date 15.06.2020
+ */
 
 public class MultiplayerMenueActivity extends AppCompatActivity {
 
@@ -45,17 +52,18 @@ public class MultiplayerMenueActivity extends AppCompatActivity {
             }
         });
     }
-    public void onClickStart(){
+
+    public void onClickStart() {
         punktzahl = Integer.parseInt(multiplayerMenueEingabe5.getText().toString());
-        if(multiplayerMenueEingabe1.getText().toString().isEmpty() || multiplayerMenueEingabe2.getText().toString().isEmpty() || multiplayerMenueEingabe3.getText().toString().isEmpty() || multiplayerMenueEingabe4.getText().toString().isEmpty()){
+        if (multiplayerMenueEingabe1.getText().toString().isEmpty() || multiplayerMenueEingabe2.getText().toString().isEmpty() || multiplayerMenueEingabe3.getText().toString().isEmpty() || multiplayerMenueEingabe4.getText().toString().isEmpty()) {
             Toast.makeText(getApplicationContext(), "Es müssen mindestens vier Spieler mitspielen.", Toast.LENGTH_LONG).show();
-        }else if(multiplayerMenueEingabe1.getText().length() < 2 || multiplayerMenueEingabe2.getText().length() < 2 || multiplayerMenueEingabe3.getText().length() < 2 || multiplayerMenueEingabe4.getText().length() < 2){
+        } else if (multiplayerMenueEingabe1.getText().length() < 2 || multiplayerMenueEingabe2.getText().length() < 2 || multiplayerMenueEingabe3.getText().length() < 2 || multiplayerMenueEingabe4.getText().length() < 2) {
             Toast.makeText(getApplicationContext(), "Die Spielernamen müssen mindestens zwei Zeichen lang sein.", Toast.LENGTH_LONG).show();
-        }else if(multiplayerMenueEingabe1.getText().length() > 20 || multiplayerMenueEingabe2.getText().length() > 20 || multiplayerMenueEingabe3.getText().length() > 20 || multiplayerMenueEingabe4.getText().length() > 20){
+        } else if (multiplayerMenueEingabe1.getText().length() > 20 || multiplayerMenueEingabe2.getText().length() > 20 || multiplayerMenueEingabe3.getText().length() > 20 || multiplayerMenueEingabe4.getText().length() > 20) {
             Toast.makeText(getApplicationContext(), "Die Spielernamen dürfen maximal zwanzig Zeichen lang sein.", Toast.LENGTH_LONG).show();
-        }else if(punktzahl < 1){
+        } else if (punktzahl < 1) {
             Toast.makeText(getApplicationContext(), "Die Punktezahl muss grösser als 0 sein.", Toast.LENGTH_LONG).show();
-        }else{
+        } else {
             spielerName1 = multiplayerMenueEingabe1.getText().toString();
             spielerName2 = multiplayerMenueEingabe2.getText().toString();
             spielerName3 = multiplayerMenueEingabe3.getText().toString();

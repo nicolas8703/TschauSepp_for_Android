@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println(Build.VERSION_CODES.N);
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
             Toast.makeText(getApplicationContext(), "Minimum API: " + Build.VERSION_CODES.N, Toast.LENGTH_SHORT).show();
             System.out.println("Minimum API: " + Build.VERSION_CODES.N);
